@@ -1,0 +1,49 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/andy/git/srt/macros/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 145334b6, interfacing (CompilerInterface) with Scala compiler version 2.10.0[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/andy/git/srt/macros/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/classes:/Users/andy/.sbt/boot/scala-2.10.0/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/andy/git/srt/macros/target/scala-2.10/classes:/Users/andy/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-4.1.jar:/Users/andy/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.1.jar:/Users/andy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.1.jar:/Users/andy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala:234: value publicMethod is not a member of grayson.srt.ASM5_impl.ASMMaker[c.type][0m
+[0m[[31merror[0m] [0m  def publicMethod(c: Context)(info: c.Expr[String]) = maker(c).publicMethod(info)[0m
+[0m[[31merror[0m] [0m                                                                ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala:485: No ClassTag available for P[0m
+[0m[[31merror[0m] [0m        c.enclosingMethod.attachments.get[P][0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala:487: No ClassTag available for P[0m
+[0m[[31merror[0m] [0m        c.enclosingClass.attachments.get[P][0m
+[0m[[31merror[0m] [0m                                        ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala:493: value mv is not a member of Any[0m
+[0m[[31merror[0m] [0m          Select(payload.mv.tree, newTermName(name)),[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala:474: No ClassTag available for P[0m
+[0m[[31merror[0m] [0m        c.enclosingMethod.updateAttachment(payload)[0m
+[0m[[31merror[0m] [0m                                          ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala:476: No ClassTag available for P[0m
+[0m[[31merror[0m] [0m        c.enclosingClass.updateAttachment(payload)[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/macros/src/main/scala/grayson/srt/asm.scala:509: not found: value Payload[0m
+[0m[[31merror[0m] [0m      setPayload(Payload(mv))[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m7 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(macros/compile:[31mcompile[0m) Compilation failed[0m

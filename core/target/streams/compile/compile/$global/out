@@ -1,0 +1,100 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/andy/git/srt/core/src/main/scala/grayson/srt/DynamicClassLoader.scala, /Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/andy/git/srt/core/src/main/scala/grayson/srt/DynamicClassLoader.scala, /Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/andy/git/srt/core/src/main/scala/grayson/srt/DynamicClassLoader.scala, /Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /Users/andy/git/srt/core/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6534b6d2, interfacing (CompilerInterface) with Scala compiler version 2.10.0[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/andy/git/srt/core/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/classes:/Users/andy/.sbt/boot/scala-2.10.0/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/andy/git/srt/core/target/scala-2.10/classes:/Users/andy/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-4.1.jar:/Users/andy/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.1.jar:/Users/andy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.1.jar[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:21: not found: value ASM5[0m
+[0m[[31merror[0m] [0m  import ASM5._[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:22: not found: value label[0m
+[0m[[31merror[0m] [0m  val l_3 = label[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:23: not found: value label[0m
+[0m[[31merror[0m] [0m  val l_10 = label[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:24: not found: value label[0m
+[0m[[31merror[0m] [0m  val l_25 = label[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:35: not found: value method[0m
+[0m[[31merror[0m] [0m  method public "<init>()V"[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:37: not found: value goto[0m
+[0m[[31merror[0m] [0m  goto (l_10)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:38: not found: value label[0m
+[0m[[31merror[0m] [0m  label(l_3)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:39: not found: value iload_2[0m
+[0m[[31merror[0m] [0m  iload_2[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:40: not found: value iinc[0m
+[0m[[31merror[0m] [0m  iinc (2, 1)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:41: not found: value iload_1[0m
+[0m[[31merror[0m] [0m  iload_1[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:42: not found: value idiv[0m
+[0m[[31merror[0m] [0m  idiv[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:43: not found: value istore_1[0m
+[0m[[31merror[0m] [0m  istore_1[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:45: not found: value label[0m
+[0m[[31merror[0m] [0m  label (l_10)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:46: not found: value iload_1[0m
+[0m[[31merror[0m] [0m  iload_1[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:47: not found: value iload_2[0m
+[0m[[31merror[0m] [0m  iload_2[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:48: not found: value if_icmplt[0m
+[0m[[31merror[0m] [0m  if_icmplt (l_3)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:49: not found: value goto[0m
+[0m[[31merror[0m] [0m  goto (l_25)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:50: not found: value astore_3[0m
+[0m[[31merror[0m] [0m  astore_3[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:51: not found: value bipush[0m
+[0m[[31merror[0m] [0m  bipush (10)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:52: not found: value istore_1[0m
+[0m[[31merror[0m] [0m  istore_1[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:53: not found: value goto[0m
+[0m[[31merror[0m] [0m  goto (l_10)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:55: not found: value label[0m
+[0m[[31merror[0m] [0m  label (l_25)[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:56: not found: value iload_2[0m
+[0m[[31merror[0m] [0m  iload_2[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/andy/git/srt/core/src/main/scala/grayson/srt/Test.scala:57: not found: value return_[0m
+[0m[[31merror[0m] [0m  return_[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m24 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(root/compile:[31mcompile[0m) Compilation failed[0m
